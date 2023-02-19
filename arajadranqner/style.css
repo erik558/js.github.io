@@ -1,0 +1,10 @@
+div {
+ min-height: 40px;
+ min-width: 40px;
+ margin: 8px;
+ border: solid;
+ background-color: red;
+}
+.addStyle{
+ background-color: blue;
+}

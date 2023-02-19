@@ -1,0 +1,9 @@
+body{
+    font-size: 50px;
+}
+.srtingsAnim{
+    display: flex;
+}
+.srtingsAnim>u{
+    transition: 1s;
+}

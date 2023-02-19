@@ -1,0 +1,13 @@
+body {
+    background-color: cornsilk;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div {
+    width: 50%;
+    height: 50vh;
+    border: 2px solid;
+}

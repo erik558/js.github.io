@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+body {
+	margin: 0;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	border: 2px solid;
+	font-size: 66px;
+	font-family: cursive;
+	text-align: center;
+	cursor: pointer;
+}
+
+.first-line {
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.parent {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.square:hover {
+	background-color: lightgreen;
+}
+
+.popap {
+	background-color: #00000059;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-block {
+	background-color: #0000005c;
+	width: 400px;
+	height: 200px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.btn {
+	font-size: 30px;
+	background-color: #00fff5;
+	border-radius: 8px;
+	padding: 5px 20px;
+	font-family: cursive;
+	cursor: pointer;
+	transition: 350ms;
+}
+
+.btn:hover {
+	background-color: #00c9ff;
+}
+
+.winText {
+	color: white;
+	font-size: 35px;
+	font-family: cursive;
+}

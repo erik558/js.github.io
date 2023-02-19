@@ -1,0 +1,23 @@
+/* .color{
+ width: 100px;
+ height: 100px;
+ margin: 100px auto; 
+ border:solid;
+} */
+
+.container {
+ display: flex;
+ justify-content: space-evenly;
+}
+input, button {
+ height: 25px;
+}
+
+input{
+ margin-right: 10px;
+}
+
+#text {
+ font-size: 25px;
+ font-weight: bold;
+}
